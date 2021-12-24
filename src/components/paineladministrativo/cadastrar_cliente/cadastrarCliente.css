@@ -1,0 +1,28 @@
+.cadastrarcliente_article{
+
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.cadastrarcliente_article_div{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.cadastrarcliente_article_campos{
+   /* background-color: blue; */
+   width: 48%;
+   padding: 10;
+   margin-inline-end: 2%;
+   
+   
+}
+

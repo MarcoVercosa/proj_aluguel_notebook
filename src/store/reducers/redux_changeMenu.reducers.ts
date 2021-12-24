@@ -1,34 +1,3 @@
-// import { actions } from "./redux_changeMenu.actions"
-
-// interface IAction {
-//     type: string;
-//     payload?: any
-// }
-
-
-// const initialStateSelectmenu = {
-//     meusDados: false,
-//     cadastrarCliente: true,
-//     alugarDispositivo: false,
-//     receberDispositivo: false,
-//     pesquisarAluguel: false,
-//     cadastrarDispEstoque: false,
-//     pesquisarDispEstoque: false,
-//     relatorios: false
-// }
-
-// export default function ChangeMenuReducer(prevState = initialStateSelectmenu, action: IAction) {
-//     console.log(prevState, action.type)
-
-//     return {
-//         ...prevState, relatorios: true
-
-//     }
-
-
-
-// }
-
 //Usuando com tookit
 import { createSlice } from "@reduxjs/toolkit";
 

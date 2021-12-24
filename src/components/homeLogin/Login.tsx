@@ -31,7 +31,7 @@ function Login(): JSX.Element {
 
             <div className='div-user-login'>
               <Box sx={{ display: 'flex', alignItems: 'flex-end' }}>
-                <AccountCircle sx={{ color: 'action.active', mr: 1, my: -0.5 }} style={{ fontSize: "40px" }} />
+                <AccountCircle sx={{ color: 'action.active', mr: 1, my: -0.2 }} style={{ fontSize: "40px" }} />
                 <TextField id="input-with-sx" label="Usuário" variant="standard" value={credentials.user}
                   onChange={(dados: any) => {
                     setCredentials((prevState: Icredentials) => {
