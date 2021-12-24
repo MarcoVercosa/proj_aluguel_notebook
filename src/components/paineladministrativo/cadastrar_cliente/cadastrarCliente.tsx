@@ -7,7 +7,7 @@ function CadastrarCliente() {
 
     return (
         <article className="cadastrarcliente_article">
-            <h1>Cadastrar cliente teste</h1>
+            <h1>Cadastrar cliente</h1>
             <div className="cadastrarcliente_article_div">
                 <div className="cadastrarcliente_div_nome_completo cadastrarcliente_article_campos" >
                     <TextField id="input-with-sx" size="small" label="Nome completo" type="text" value={""} style={{ width: "100%" }} />
