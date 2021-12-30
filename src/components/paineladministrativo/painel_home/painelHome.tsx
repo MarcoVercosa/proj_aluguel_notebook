@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./painelHome.css"
 
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 import HowToRegIcon from '@mui/icons-material/HowToReg';
 import ChangeCircleIcon from '@mui/icons-material/ChangeCircle';
 import CallReceivedIcon from '@mui/icons-material/CallReceived';
@@ -10,7 +10,7 @@ import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
 import ScreenSearchDesktopIcon from '@mui/icons-material/ScreenSearchDesktop';
 import GridViewIcon from '@mui/icons-material/GridView';
 
-import MeusDados from "../meus_dados/meusDados"
+import MeusDados from "../pesquisar_cliente/pesquisarCliente"
 import CadastrarCliente from "../cadastrar_cliente/cadastrarCliente"
 import AlugarDispositivo from "../alugar_dispositivo/alugarDispositivo"
 import ReceberDispositivo from "../receber_dispositivo/receberDispositivo"
@@ -52,8 +52,8 @@ function PainelAdministrativo() {
 
                     onClick={(dados) => AtivaComponenteMenu("meusDados")}
                 >
-                    <span><AccountCircleIcon style={{ fontSize: "50px", color: selectMenu.meusDados ? "rgb(247, 142, 5)" : "white" }} /></span>
-                    <p style={{ color: selectMenu.meusDados ? "rgb(247, 142, 5)" : "white" }}>MEUS DADOS</p>
+                    <span><PersonSearchIcon style={{ fontSize: "50px", color: selectMenu.meusDados ? "rgb(247, 142, 5)" : "white" }} /></span>
+                    <p style={{ color: selectMenu.meusDados ? "rgb(247, 142, 5)" : "white" }}>PESQUISAR CLIENTE</p>
 
                 </div>
                 <div className="menu_painel_adm_div_select"
