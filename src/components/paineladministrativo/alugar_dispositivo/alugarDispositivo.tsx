@@ -113,7 +113,7 @@ function AlugarDispositivo() {
                         <input type="date" id="inicio" name="iniciodate" min={DateNow()} />
                     </div>
                     <div className="alugardispositivo_div_datafim alugardispositivo_article_campos_altera">
-                        <label >Selecione a data do fim do aluguel: </label>
+                        <label >Selecione a data do fim do aluguel</label>
                         <input type="date" id="fim" name="fimdate" min={DateNow()} />
                     </div>
 
